@@ -22,6 +22,5 @@ public class Main {
         while (rs.next()) {
             System.out.printf("%s\n", rs.getString("nombre"));
         }
-
     }
 }
