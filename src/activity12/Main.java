@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
-       new Main().App();
+       new Main().app();
     }
 
-    void App() throws ClassNotFoundException, SQLException {
+    void app() throws ClassNotFoundException, SQLException {
         Scanner keyboard = new Scanner(System.in);
         String teacher, script;
         ResultSet rs;
