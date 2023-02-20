@@ -27,6 +27,5 @@ public class Main {
         while (rs.next()) {
             System.out.printf("%s %s %s %s \n", rs.getString("codTramo"), rs.getString("horaInicio"), rs.getString("horaFin"), rs.getString("dia"));
         }
-
     }
 }
