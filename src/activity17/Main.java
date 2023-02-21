@@ -22,7 +22,6 @@ public class Main {
 
     void app() throws ClassNotFoundException, SQLException {
         String type, teacher, course;
-        ResultSet rs;
         Scanner keyboard = new Scanner(System.in);
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/horario?allowMultiQueries=true", "root", "root");
